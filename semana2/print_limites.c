@@ -2,7 +2,7 @@
 #include <float.h> 
 #include <limits.h>
 
-
+/*ESte es un programa para imprimir*/
 int main( )
 {
     printf("UINT_MAX = %u \n", UINT_MAX);
