@@ -13,7 +13,7 @@ int main()
 	printf("Introduce tu edad; \n");
         scanf("%i",&edad);
 	edad2=edad+10;
-	printf("%s edad en el 2028 es; %i \n",nombre,edad2);
+	printf("%s tu edad en el 2028 es; %i \n",nombre,edad2);
  
 }
 
