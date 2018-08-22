@@ -4,26 +4,22 @@
 int main ()
 
 {
-	float X,Y1,Y2,Y3,rad;
-	printf("Dame un valor para X\n");
+	float X,X2,X3,Y1,Y2,Y3;
+
+	printf("Dame un valor para X:\n");
 	scanf("%f",&X);
 	Y1=exp(-X);
-	printf("Tu resultado al evaluar en la funcion y=exp(-X)es igual a:\n",Y1);
-	rad=(X*3.1416)/180;
-	printf("Y1:%f\n",Y1);
-	printf("radianes:%f\n"rad);	
-	
-	printf("dime tu resultado en radianes\n");
-	scanf("%F",rad);
-	Y2=cos(rad)+(2*tan(rad));
-	Y3=log(X)+(3*pow(X,2));
-	printf("\n resultado de la segunda funcion es:%f",Y2);
-	printf("\n resultado de la tercera funcion es:%f",Y3);
+	Y2=cos((X2*3.1416)/180)+(2*tan((X2*3.1416/180)));
+	Y3=log(X3)+(3*pow(X3,2));
+	printf("Dame un valor para X2:\n");
+	scanf("%f",&X2);
+	printf("Dame un valor para X3:\n");
+	scanf("%f",&X3);
+	printf("Y1 es igual a:%f\n",Y1);
+	printf("Y2 es igual a:%f\n",Y2);
+	printf("\n Y3 es igual a:%f\n",Y3);
 
-}
-
-
-
+	return 0;
 
 
 
