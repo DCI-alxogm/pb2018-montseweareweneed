@@ -12,10 +12,10 @@ int main()
 	es_vocalminuscula = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c =='u');
 	es_vocalmayuscula = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c =='U');
 
-	if (es_vocalminuscula || es_vocalminuscula){
+	if (es_vocalmayuscula || es_vocalminuscula){
 		printf("%c es una vocal\n", c);
 	} else {
-		printf("%c es una consonante\n", c);
+		printf("%c es consonante\n", c);
 	}
 	return 0;
 }
