@@ -8,7 +8,12 @@ int main()
 	float C,K,F,C1;
 	float x,y,z,r,o,p,o1,p1;
 	float x1,y1,z1;
-	int op=1
+	int op=1;
+
+
+	op=1;
+		
+
 
 	while(op==1){
 	printf(" Teclea una opción \n");
@@ -67,7 +72,7 @@ int main()
 		printf("No es una opción válida");
 		break;
 	}
-	prinf("¿Deseas realizar otra conversion?, Presiona 1 para realizar otra operacion, o presiona cualquier otro numero para salir)\n");
+	printf("¿Deseas realizar otra conversion?, Presiona 1 para realizar otra operacion, o presiona cualquier otro numero para salir)\n");
 		scanf("%i",&op);
 	}
 
