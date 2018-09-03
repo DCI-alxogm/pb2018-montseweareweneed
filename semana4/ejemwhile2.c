@@ -5,7 +5,7 @@ int main ()
         float temp_C,temp_K;
         float inicial=100,final=200,delta;
         int n=10;
-	int op=1,count=0;
+	int op=1;
         delta=(final-inicial)/n;
 
 
@@ -25,17 +25,7 @@ int main ()
 	
 	
 		scanf("%i",&op);
-		count++;
-		if (count>3){
-		printf("Error de numero de interacciones excedido");
-
-			return 1;
-		}
-		
-
-	}
-
-
+	}		
         return 0;
         
 }
