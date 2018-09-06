@@ -1,22 +1,26 @@
 #include <stdio.h>
 int main()
 {
-int inicial,final;
-int i, a, j;
-printf("Inserta un número inicial: \n");
-scanf("%i", &inicial);	
-printf("Inserta un número final: \n");
-scanf("%i", &final); 
+int ini,fin,n,a,j;
 
-for (int j=inicial;j<=final;j++){
+printf("este programa te dara los numeros primos de un intervalo que a continuación vas a definir.\n");
+printf("Dame un número para iniciar: \n");
+scanf("%i", &ini);	
+printf("Dame un número para finalizar: \n");
+scanf("%i", &fin); 
+
+for (int j=ini;j<=fin;j++){
  int a=0;
- for(int i=1;i<=100;i++)
+ for(int n=1;n<=100;n++)
  {
-     if(j%i==0) 
+     if(j%n==0) 
      a++;
  }
  if (a==2){ 
- printf("%d, ", j);
+ 
+	 
+	 
+	 printf("%d, ", j);
  }
  }
 }
