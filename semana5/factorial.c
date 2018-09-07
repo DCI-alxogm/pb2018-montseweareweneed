@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<math.h>
 
 int main()
 {
 	int i,o,fact=1,numero,resultado;
-	 while(0==1||2)
+	o=1;
+	while(o==1)
 	 {
 
 	
@@ -24,7 +26,7 @@ int main()
 
 	}
 		printf("\n tu factorial es:%i",resultado);
-
+		fact=1;
 
 	}
 
