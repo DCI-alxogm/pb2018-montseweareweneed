@@ -1,12 +1,13 @@
-/*Creado por Montserrat Cruz Aguilar, el 3 de octubre*/
+/*este ejemplo fue hecho por Montserrat Cruz Aguilar*/
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
 	int num, i, *ptr, sum=0;
-	ptr=(int*) malloc(num*sizeof(int)); //con esto se reserva la memoria usando malloc
 	
 	printf("Introduce el número de elementos\n");
 	scanf("%d",&num);
+	
+	ptr=(int*) calloc(num, sizeof(int));
 	
 	if(ptr==NULL)
 	{
