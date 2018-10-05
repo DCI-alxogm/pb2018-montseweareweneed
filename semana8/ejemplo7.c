@@ -5,9 +5,9 @@ int main()
 {
 	int i, sum=0;
 	int *num;
-	
+
 	printf("Introduce 6 numeros enteros:\n");
-	num =(int*) malloc(num*sizeof(int));
+	num =(int*) malloc(6*sizeof(int));
 	
 	for(i=0; i<6; i++){
 		//(num+1) es equivalente a &num[i]
