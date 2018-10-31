@@ -18,7 +18,7 @@ int main() {
 	printf("Tempreratura superior %lf\n",up);
 	printf("Tempreratura izquierda %lf\n",le);
 	printf("Tempreratura derecha %lf\n",ri);
-	printf("Tamaño de la placa= %i\n",n);
+	printf("TamaÃ±o de la placa= %i\n",n);
 	printf("Epsilon= %lf\n",e);
 	
 	float plate[n][n];
